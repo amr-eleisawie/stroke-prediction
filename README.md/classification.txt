@@ -1,0 +1,52 @@
+Stroke Prediction Project
+
+Overview
+This project focuses on predicting the possibility of a stroke from health data.
+
+It applies **classical machine learning models** comprising Logistic Regression, Random Forest, Gradient Boosting, and Naive Bayes.
+
+---
+Dataset
+- Source: Healthcare Stroke Dataset  https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
+
+Some feature examples are: age, bmi, glucose level, gender, marital status, type of work, type of residence, smoking status, etc.
+
+Target: `stroke` : 0 - No stroke, 1 - Stroke
+
+The effect this has on African American mothers and daughters in shaping their identities and laying the foundation upon which such identities are formed, what psychological effects does such have and have on their lives?
+Project Workflow
+1. **Data Cleaning & Preprocessing**
+- Handle missing values
+
+- Remove the outliers
+- Apply log transformations for skewed data
+Categorical variables-one-hot encoding
+
+2. **Exploratory Data Analysis (EDA)
+- Checked distributions of numerical features
+
+Explored the relationship between features and the target variable.
+visualized the key patterns by using plots
+3. **Feature Engineering
+
+- Created new features like `BMI categories` or `Age groups` (if needed)
+- Included important attributes
+4. **Model Training & Evaluation**
+
+- Models trained include: Logistic Regression, Random Forest, Gradient Boosting, Naïve Bayes (Gaussian & Bernoulli), SVC, Decision Tree, KNN, SGDClassifier, QDA.
+
+Input - Metrics used: Precision, Recall, F1-score, ROC-AUC
+Address the class imbalance by setting `class_weight='balanced'` or performing oversampling
+5. **Results**
+Compared all models based on F1-score and ROC-AUC The best performance was given by Logistic Regression and Random Forest. This report includes model comparisons visually. A Time to Fix Glitch Seen in Fasting Insulin's Action How to Run 1. Clone the repository: ```bash git clone https://github.com/amrmohamed666/stroke-prediction.git
+
+
+
+## How to Run
+1. Clone the repository:
+```bash
+git clone https://github.com/amrmohamed666/stroke-prediction.git
+
+
+
+
